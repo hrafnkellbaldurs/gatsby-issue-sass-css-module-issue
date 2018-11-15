@@ -1,9 +1,13 @@
 import React from 'react'
-import styles from './CssModuleComponent.module.css'
+import styles from './CssModuleComponent.module.scss'
 
 const CssModuleComponent = () => (
     <div className={ `${styles.container} container-indicator` }>
-        <h2>CssModuleComponent</h2>
+        <ul>
+            <li>
+                <a>CssModuleComponent, this should be green</a>
+            </li>
+        </ul>
     </div>
 )
 

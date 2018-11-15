@@ -1,0 +1,19 @@
+{
+    "name": "gatsby-plugin-sass-css-module-issue",
+    "description": "",
+    "license": "MIT",
+    "scripts": {
+        "develop": "gatsby develop",
+        "start": "npm run develop",
+        "build": "gatsby build",
+        "serve": "gatsby serve"
+    },
+    "keywords": [
+        "gatsby"
+    ],
+    "dependencies": {
+        "gatsby": "^2.0.33",
+        "react": "^16.5.1",
+        "react-dom": "^16.5.1"
+    }
+}

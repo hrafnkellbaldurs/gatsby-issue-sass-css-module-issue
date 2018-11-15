@@ -6,6 +6,7 @@
         "develop": "gatsby develop",
         "start": "npm run develop",
         "build": "gatsby build",
+        "buildDocs": "rm -rf docs && cp -R public docs",
         "serve": "gatsby serve"
     },
     "keywords": [

@@ -5,7 +5,7 @@ const {
     author,
     keywords
 } = require('./package.json')
-const repoName = repoUrl.split('/')[repoUrl.length - 1]
+const repoName = (urlParts => urlParts[urlParts.length - 1])(repoUrl.split('/'))
 
 module.exports = {
     pathPrefix: `/${repoName}`,

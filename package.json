@@ -1,6 +1,7 @@
 {
     "name": "gatsby-issue-sass-css-module-issue",
-    "description": "",
+    "description": "A reproducation of inline styles not working for some reason",
+    "author": "Hrafnkell Baldursson",
     "license": "MIT",
     "scripts": {
         "develop": "gatsby develop",
@@ -23,5 +24,9 @@
     },
     "devDependencies": {
         "gh-pages": "^2.0.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hrafnkellbaldurs/gatsby-issue-sass-css-module-issue"
     }
 }

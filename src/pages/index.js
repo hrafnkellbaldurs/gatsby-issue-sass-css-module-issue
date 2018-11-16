@@ -2,12 +2,15 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 
-
-const IndexPage = ({ data }) => (
-    <Layout>
-        <h1>IndexPage</h1>
-    </Layout>
-)
+class IndexPage extends React.PureComponent {
+    render() {
+        return (
+            <Layout>
+                <h1>IndexPage</h1>
+            </Layout>
+        )
+    }
+}
 
 export const query = graphql`
     query IndexPage {

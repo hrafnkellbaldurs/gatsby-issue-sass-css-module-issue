@@ -16,6 +16,7 @@
     "dependencies": {
         "@svgr/webpack": "^4.0.3",
         "gatsby": "^2.0.33",
+        "gatsby-plugin-manifest": "^2.0.9",
         "gatsby-plugin-react-helmet": "^3.0.2",
         "gatsby-plugin-sass": "^2.0.4",
         "gatsby-plugin-svgr": "^2.0.0-alpha",

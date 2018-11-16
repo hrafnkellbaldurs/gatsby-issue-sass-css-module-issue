@@ -16,6 +16,19 @@ module.exports = {
         keywords: keywords.join(', ')
     },
     plugins: [
+        {
+            resolve: `gatsby-plugin-manifest`,
+            options: {
+                name: name,
+                short_name: name,
+                start_url: `/`,
+                background_color: `#663399`,
+                theme_color: `#663399`,
+                display: `minimal-ui`,
+                // Relative to the root of the site.
+                icon: `src/assets/images/favicon.png`
+            },
+        },
         `gatsby-plugin-react-helmet`,
         `gatsby-plugin-sass`,
         {

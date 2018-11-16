@@ -14,9 +14,11 @@
         "gatsby"
     ],
     "dependencies": {
+        "@svgr/webpack": "^4.0.3",
         "gatsby": "^2.0.33",
         "gatsby-plugin-react-helmet": "^3.0.2",
         "gatsby-plugin-sass": "^2.0.4",
+        "gatsby-plugin-svgr": "^2.0.0-alpha",
         "node-sass": "^4.10.0",
         "react": "^16.5.1",
         "react-dom": "^16.5.1",

@@ -17,6 +17,16 @@ module.exports = {
     },
     plugins: [
         `gatsby-plugin-react-helmet`,
-        `gatsby-plugin-sass`
+        `gatsby-plugin-sass`,
+        {
+            resolve: `gatsby-plugin-svgr`,
+            options: {
+                icon: true,
+                svgProps: {
+                    className: `svgr`
+                }
+                // see https://github.com/smooth-code/svgr for a list of all options
+            }
+        }
     ]
 }

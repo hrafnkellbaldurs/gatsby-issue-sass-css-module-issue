@@ -1,5 +1,12 @@
 @import '../../styles/utils/_colors.scss';
 
-.container a {
-    color: $green;
+.container { 
+    font-size: 30px;
+    a {
+        color: $green;
+
+        &:hover {
+            color: theme-color('accent');
+        }
+    }
 }

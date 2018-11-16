@@ -1,13 +1,13 @@
 {
-    "name": "gatsby-plugin-sass-css-module-issue",
+    "name": "gatsby-issue-sass-css-module-issue",
     "description": "",
     "license": "MIT",
     "scripts": {
         "develop": "gatsby develop",
         "start": "npm run develop",
         "build": "gatsby build",
-        "buildDocs": "rm -rf docs && cp -R public docs",
-        "serve": "gatsby serve"
+        "serve": "gatsby serve",
+        "deploy": "gatsby build --prefix-paths && gh-pages -d public"
     },
     "keywords": [
         "gatsby"
@@ -18,5 +18,8 @@
         "node-sass": "^4.10.0",
         "react": "^16.5.1",
         "react-dom": "^16.5.1"
+    },
+    "devDependencies": {
+        "gh-pages": "^2.0.1"
     }
 }
